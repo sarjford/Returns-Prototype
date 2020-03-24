@@ -1,0 +1,29 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fedex-nodejs": "^1.1.0",
+    "fs": "0.0.1-security",
+    "isomorphic-unfetch": "^3.0.0",
+    "net": "^1.0.2",
+    "next": "^8.0.1",
+    "next-redux-wrapper": "^3.0.0-alpha.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "tls": "0.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0"
+  }
+}
