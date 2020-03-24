@@ -1,0 +1,2 @@
+# Returns-Prototype
+Returns portal SPA written in Next.js and Node, using the FedEx API. I wrote this prototype in 2019 as part of a proposal to my company's leadership that we build our returns platform in-house. It's a barebones site where the user enters an order id which pulls up their orders, and they can select an order to return, and then they navigate to a page that prints off a FedEx label to return that order.
